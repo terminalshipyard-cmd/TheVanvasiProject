@@ -1,0 +1,55 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="woodTable" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A3425" />
+      <stop offset="100%" stop-color="#302016" />
+    </linearGradient>
+    <radialGradient id="softLight" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFDF7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.4" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background wall in Lazimpat kitchen -->
+  <rect width="800" height="900" fill="#203428" />
+  
+  <!-- Subtle wood panel lines -->
+  <line x1="0" y1="200" x2="800" y2="200" stroke="#16261D" stroke-width="2" />
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#16261D" stroke-width="2" />
+  
+  <!-- Kitchen worktable surface -->
+  <polygon points="0,520 800,520 800,900 0,900" fill="url(#woodTable)" />
+  <line x1="0" y1="520" x2="800" y2="520" stroke="#5E4331" stroke-width="3" />
+
+  <!-- Marble Board -->
+  <rect x="140" y="560" width="520" height="260" rx="16" fill="#F4EFEA" stroke="#DCD3C7" stroke-width="4" />
+  <ellipse cx="400" cy="830" rx="280" ry="25" fill="#1C140E" opacity="0.3" />
+
+  <!-- Sourdough Slice -->
+  <path d="M200,640 Q280,600 360,650 Q380,720 320,740 Q220,740 180,680 Z" fill="#DDBB82" stroke="#8C5C26" stroke-width="3" />
+  
+  <!-- Melting Golden Butter dollop -->
+  <path d="M250,655 Q290,645 315,665 Q310,685 270,685 Z" fill="#F9DE7E" stroke="#DDA820" stroke-width="1.5" />
+  <path d="M260,680 Q290,680 300,700 Q270,705 255,690 Z" fill="#FCE9A3" opacity="0.85" />
+
+  <!-- Churned butter crock in background -->
+  <ellipse cx="530" cy="670" rx="75" ry="30" fill="#E8DEC8" stroke="#BFB194" stroke-width="2" />
+  <rect x="455" y="620" width="150" height="50" fill="#E8DEC8" />
+  <ellipse cx="530" cy="620" rx="75" ry="25" fill="#FAF5E8" stroke="#BFB194" stroke-width="2" />
+  <!-- Cultured butter mass inside crock -->
+  <ellipse cx="530" cy="615" rx="60" ry="18" fill="#FCEAA8" stroke="#D4B04C" stroke-width="1.5" />
+
+  <!-- Fresh thyme sprig on table -->
+  <path d="M380,730 Q430,700 480,740" stroke="#486D3F" stroke-width="3" stroke-linecap="round" />
+  <ellipse cx="410" cy="710" rx="7" ry="4" fill="#3D5E34" transform="rotate(-30 410 710)" />
+  <ellipse cx="440" cy="715" rx="7" ry="4" fill="#3D5E34" transform="rotate(25 440 715)" />
+  <ellipse cx="465" cy="735" rx="6" ry="3.5" fill="#3D5E34" transform="rotate(-15 465 735)" />
+
+  <!-- Honey dipper stick -->
+  <line x1="620" y1="580" x2="710" y2="720" stroke="#A87A46" stroke-width="8" stroke-linecap="round" />
+  <ellipse cx="630" cy="595" rx="14" ry="18" fill="#8C5F30" transform="rotate(35 630 595)" />
+  
+  <!-- Atmospheric Warm Light -->
+  <rect width="800" height="900" fill="url(#softLight)" />
+  <text x="400" y="865" text-anchor="middle" fill="#FFFFFF" opacity="0.5" font-family="serif" font-size="12" letter-spacing="4">THE KITCHEN AT LAZIMPAT • SMALL BATCHES ONLY</text>
+</svg>

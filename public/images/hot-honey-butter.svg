@@ -1,0 +1,69 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="jarGlow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFDF7" />
+      <stop offset="100%" stop-color="#F2ECE1" />
+    </radialGradient>
+    <linearGradient id="butterHoney" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9D46A" />
+      <stop offset="40%" stop-color="#E89B2B" />
+      <stop offset="80%" stop-color="#C85215" />
+      <stop offset="100%" stop-color="#9C300B" />
+    </linearGradient>
+    <linearGradient id="lidWood" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D4D3A" />
+      <stop offset="100%" stop-color="#182E22" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Minimal Background Circle -->
+  <circle cx="300" cy="300" r="260" fill="url(#jarGlow)" />
+  
+  <!-- Subtle contour ring -->
+  <circle cx="300" cy="300" r="230" stroke="#1F3A2B" stroke-width="1" stroke-dasharray="6 4" opacity="0.15" />
+
+  <!-- Shadow below jar -->
+  <ellipse cx="300" cy="490" rx="140" ry="24" fill="#1C241E" opacity="0.1" />
+
+  <!-- Glass Jar Body -->
+  <rect x="180" y="210" width="240" height="260" rx="36" fill="#FFFFFF" fill-opacity="0.25" stroke="#D1C7B7" stroke-width="2" />
+
+  <!-- Butter Fill -->
+  <rect x="186" y="235" width="228" height="225" rx="28" fill="url(#butterHoney)" />
+
+  <!-- Butter Texture & Chilli Flakes -->
+  <ellipse cx="240" cy="275" rx="6" ry="4" fill="#751502" opacity="0.8" transform="rotate(-15 240 275)" />
+  <ellipse cx="350" cy="290" rx="5" ry="3.5" fill="#5E0E00" opacity="0.75" transform="rotate(25 350 290)" />
+  <ellipse cx="290" cy="330" rx="7" ry="4" fill="#6B1303" opacity="0.85" transform="rotate(-5 290 330)" />
+  <ellipse cx="220" cy="390" rx="5.5" ry="3" fill="#801A06" opacity="0.7" transform="rotate(35 220 390)" />
+  <ellipse cx="360" cy="380" rx="6" ry="4.5" fill="#701201" opacity="0.8" transform="rotate(-20 360 380)" />
+  <circle cx="320" cy="250" r="2.5" fill="#FFE599" opacity="0.9" />
+  <circle cx="260" cy="360" r="2" fill="#FFF2B2" opacity="0.8" />
+
+  <!-- Glass Reflection Sheen -->
+  <path d="M205 240 L205 440" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.45" />
+
+  <!-- Label on Jar -->
+  <rect x="200" y="295" width="200" height="120" rx="6" fill="#FDFBF7" stroke="#E3DAC9" stroke-width="1.5" />
+  <rect x="206" y="301" width="188" height="108" fill="none" stroke="#1F3A2B" stroke-width="0.8" opacity="0.4" />
+
+  <!-- Label Content -->
+  <text x="300" y="328" text-anchor="middle" fill="#1F3A2B" font-family="serif" font-size="10" letter-spacing="3" font-weight="bold">THE VANVASI PROJECT</text>
+  <line x1="240" y1="336" x2="360" y2="336" stroke="#1F3A2B" stroke-width="0.75" opacity="0.3" />
+  
+  <text x="300" y="360" text-anchor="middle" fill="#1F3A2B" font-family="serif" font-size="16" letter-spacing="1.5" font-weight="bold">HOT HONEY BUTTER</text>
+  <text x="300" y="378" text-anchor="middle" fill="#C85215" font-family="sans-serif" font-size="8.5" letter-spacing="2" font-weight="600">RAW HONEY &amp; CHILLI</text>
+  
+  <text x="300" y="398" text-anchor="middle" fill="#5C665F" font-family="sans-serif" font-size="8" letter-spacing="1">KATHMANDU • 100g / 250g</text>
+
+  <!-- Jar Neck & Screw Ring -->
+  <rect x="210" y="195" width="180" height="20" rx="5" fill="#E6DFD3" stroke="#C4B9A5" stroke-width="1.5" />
+  
+  <!-- Wooden / Forest Green Lid -->
+  <rect x="195" y="165" width="210" height="34" rx="8" fill="url(#lidWood)" stroke="#112218" stroke-width="2" />
+  <line x1="205" y1="176" x2="395" y2="176" stroke="#416952" stroke-width="1.5" opacity="0.7" />
+  
+  <!-- Tag badge -->
+  <rect x="365" y="160" width="75" height="24" rx="12" fill="#E8B931" />
+  <text x="402" y="176" text-anchor="middle" fill="#14261C" font-family="sans-serif" font-size="9.5" font-weight="bold" letter-spacing="1">NO. 01</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#345441" />
+      <stop offset="45%" stop-color="#557762" />
+      <stop offset="75%" stop-color="#9CB39E" />
+      <stop offset="100%" stop-color="#D7E0D3" />
+    </linearGradient>
+    <linearGradient id="mistGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="100%" stop-color="#D7E0D3" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="ridgeFar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B7E67" />
+      <stop offset="100%" stop-color="#3C5C48" />
+    </linearGradient>
+    <linearGradient id="ridgeMid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2D4D3A" />
+      <stop offset="100%" stop-color="#1E382A" />
+    </linearGradient>
+    <linearGradient id="ridgeNear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A3324" />
+      <stop offset="100%" stop-color="#0E1D14" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#skyGrad)" />
+
+  <!-- Himalayan Snow Peaks in distance -->
+  <polygon points="400,420 540,290 680,420" fill="#E8EFEA" opacity="0.45" />
+  <polygon points="510,320 540,290 580,335" fill="#FFFFFF" opacity="0.6" />
+  
+  <polygon points="620,440 760,260 900,440" fill="#DFEBE2" opacity="0.5" />
+  <polygon points="730,300 760,260 810,330" fill="#FFFFFF" opacity="0.75" />
+  
+  <polygon points="850,430 980,310 1110,430" fill="#E2EBE5" opacity="0.4" />
+  <polygon points="950,335 980,310 1020,350" fill="#FFFFFF" opacity="0.65" />
+
+  <!-- Far misty hill ridge -->
+  <path d="M0,560 Q380,480 820,530 T1600,490 Q1780,510 1920,540 L1920,1080 L0,1080 Z" fill="url(#ridgeFar)" />
+  <rect y="480" width="1920" height="140" fill="url(#mistGrad)" />
+
+  <!-- Mid tea garden terraces -->
+  <path d="M0,660 Q440,610 940,670 T1920,630 L1920,1080 L0,1080 Z" fill="url(#ridgeMid)" />
+  
+  <!-- Tea garden contours -->
+  <path d="M-50,710 Q400,660 920,720 T1980,680" stroke="#466F56" stroke-width="6" opacity="0.5" fill="none" />
+  <path d="M-50,750 Q420,700 950,760 T1980,720" stroke="#3D634C" stroke-width="6" opacity="0.55" fill="none" />
+  <path d="M-50,790 Q450,740 980,800 T1980,760" stroke="#375B44" stroke-width="7" opacity="0.6" fill="none" />
+  <path d="M-50,830 Q470,780 1010,840 T1980,800" stroke="#31513D" stroke-width="8" opacity="0.65" fill="none" />
+
+  <!-- Fore-ridge hill -->
+  <path d="M0,810 Q500,750 1100,820 T1920,780 L1920,1080 L0,1080 Z" fill="url(#ridgeNear)" />
+  <path d="M-50,880 Q520,820 1140,890 T1980,850" stroke="#254231" stroke-width="10" opacity="0.75" fill="none" />
+  <path d="M-50,940 Q540,880 1170,950 T1980,910" stroke="#1D3627" stroke-width="12" opacity="0.8" fill="none" />
+
+  <!-- Soft vignette gradient overlay to make text pop -->
+  <rect width="1920" height="1080" fill="black" opacity="0.22" />
+  <radialGradient id="heroVignette" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#000000" stop-opacity="0.1" />
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.5" />
+  </radialGradient>
+  <rect width="1920" height="1080" fill="url(#heroVignette)" />
+</svg>

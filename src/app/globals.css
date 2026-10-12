@@ -1,1 +1,62 @@
 @import "tailwindcss";
+
+@theme {
+  --color-forest: #1F3A2B;
+  --color-forest-dark: #14261C;
+  --color-forest-light: #2A4E3B;
+  --color-forest-surface: #EBF0EC;
+  --color-butter: #E8B931;
+  --color-butter-light: #FFF8E6;
+  --color-warm-white: #FBF9F5;
+  --color-warm-cream: #F4EFE6;
+  --color-warm-border: #E6DFD5;
+  --color-earth-text: #1C241E;
+  --color-earth-muted: #5E6961;
+  
+  --font-serif: var(--font-serif), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-sans), "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-warm-white);
+    color: var(--color-earth-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Custom scroll text-roll animation */
+.text-roll {
+  display: inline-block;
+  overflow: hidden;
+  height: 1.25em;
+  line-height: 1.25em;
+  vertical-align: text-bottom;
+}
+
+.text-roll-inner {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.group:hover .text-roll-inner,
+button:hover .text-roll-inner,
+a:hover .text-roll-inner {
+  transform: translateY(-50%);
+}
+
+/* Woodgrain Contour Pattern (divider / watermark) */
+.contour-pattern {
+  background-image: radial-gradient(#1F3A2B 0.75px, transparent 0.75px), radial-gradient(#1F3A2B 0.75px, #FBF9F5 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  opacity: 0.05;
+}
