@@ -119,17 +119,7 @@ function SignInForm() {
         </Link>
       </div>
 
-      <div className="mt-6 p-3 bg-amber-50/80 border border-amber-200/80 rounded-md text-xs text-amber-900">
-        <p className="font-semibold mb-1">Demo Credentials:</p>
-        <p>
-          Admin: <span className="font-mono">admin@thevanvasiproject.com.np</span> /{" "}
-          <span className="font-mono">admin123</span>
-        </p>
-        <p className="mt-0.5">
-          Customer: <span className="font-mono">customer@example.com</span> /{" "}
-          <span className="font-mono">customer123</span>
-        </p>
-      </div>
+
     </div>
   );
 }
